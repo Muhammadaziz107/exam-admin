@@ -83,7 +83,7 @@ function Restaurants() {
         Accept: "application/json",
         "Content-Type": "application/json",
       },
-      method: "POST",
+      method: "DELETE",
       body: JSON.stringify({
         restaurantId: evt.target.dataset.id,
       }),
@@ -133,7 +133,7 @@ function Restaurants() {
 
       {/* ========= */}
 
-      <div className="modal " ref={elDiv}>
+      <div className="modal" ref={elDiv}>
         <form className="modal__form" onSubmit={handleCreateNew}>
           <button className="closeBtn" type="button" onClick={handleCloseModal}>
             <img src={closeBtn} alt="closebtn icon" width={20} height={20} />
