@@ -1,0 +1,8 @@
+.home {
+  display: flex;
+}
+.home__heading {
+  text-align: center;
+  margin-top: 300px;
+  margin-left: 300px;
+}

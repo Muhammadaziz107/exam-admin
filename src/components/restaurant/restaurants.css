@@ -1,0 +1,99 @@
+.restaurants__delete-btn {
+  background-color: rgb(16, 134, 134);
+  padding: 5px 40px;
+  color: white;
+  border: 1px solid rgb(16, 134, 134);
+  border-radius: 10px;
+}
+.restaurants {
+  position: relative;
+}
+
+.newRestaurant {
+  position: absolute;
+  width: 200px;
+  background-color: rgb(16, 134, 134);
+  padding: 10px 40px;
+  color: white;
+  font-size: 17px;
+  margin-left: 1200px;
+  margin-top: 50px;
+  border: 1px solid rgb(16, 134, 134);
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 1450px) {
+  .newRestaurant {
+    margin-left: 1100px;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .newRestaurant {
+    margin-left: 1000px;
+  }
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  top: 20%;
+  left: 37%;
+  width: 400px;
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+  /* border: 3px solid black; */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.modal--active {
+  display: block;
+}
+.modal__form {
+  display: flex;
+  flex-direction: column;
+}
+.modal__form__select {
+  width: 400px;
+  height: 50px;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.modal__form__input {
+  width: 392px;
+  height: 50px;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.modal__form__btn {
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  margin: 0 auto;
+  background-color: rgb(16, 134, 134);
+  padding: 5px 40px;
+  color: white;
+  border: 1px solid rgb(16, 134, 134);
+  border-radius: 10px;
+  display: block;
+}
+.modal__form__heading {
+  text-align: center;
+}
+
+.closeBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  margin-bottom: -20px;
+}
+.restaurants__delete-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.newRestaurant:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
