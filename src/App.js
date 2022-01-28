@@ -7,6 +7,7 @@ import Category from "./components/category/category";
 import Users from "./components/users/users";
 import Restaurants from "./components/restaurant/restaurants";
 import Products from "./components/products/products";
+import Orders from "./components/orders/orders";
 
 function App() {
   let navigate = useNavigate();
@@ -29,6 +30,7 @@ function App() {
         <Route path="/users" element={<Users />} />
         <Route path="/restaurants" element={<Restaurants />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/orders" element={<Orders />} />
       </Routes>
     </>
   );
